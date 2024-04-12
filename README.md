@@ -9,7 +9,7 @@ With these points in mind, in this Challenge you'll set yourself up for future s
 Deployed Link
 
 
-Screenshsot of Project
+Screenshot of Project
 
 
 

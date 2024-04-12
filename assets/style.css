@@ -12,8 +12,8 @@
   width: 100%;
   border: 2px solid black;
   padding: 4px;
-
 }
+/** this picture should be bigger than all the small-work pictures/
 
 .toprow {
   height: 100%px;
@@ -25,11 +25,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  
 }
 
 .grid-item {
-
   width: 33%;
   font-size: 30px;
   text-align: center;
@@ -39,9 +37,10 @@
 
 .grid-big-item {
   width: 40%;
-
 }
+/**grid-big-item was just was naming purpose it corrolates with small-work and having them right next to each other can lookcontradicticting but dont focus on that
 
 .small-work {
   width: 100%;
 }
+/**all of the small-work pictures should be the same/
