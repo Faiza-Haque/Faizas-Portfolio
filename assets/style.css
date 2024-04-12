@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+
+
 .profile-picture {
   height: 300px;
   border: 2px solid;
@@ -13,7 +15,7 @@
   border: 2px solid black;
   padding: 4px;
 }
-/** this picture should be bigger than all the small-work pictures/
+
 
 .toprow {
   height: 100%px;
@@ -38,9 +40,16 @@
 .grid-big-item {
   width: 40%;
 }
-/**grid-big-item was just was naming purpose it corrolates with small-work and having them right next to each other can lookcontradicticting but dont focus on that
+
 
 .small-work {
   width: 100%;
 }
+
+
+
+/** pure logo should be bigger than all the small-work pictures/
+
+/**grid-big-item was just was naming purpose it corrolates with small-work and having them right next to each other can lookcontradicticting but dont focus on that/
+
 /**all of the small-work pictures should be the same/
