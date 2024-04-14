@@ -11,7 +11,7 @@ With these points in mind, in this Challenge you'll set yourself up for future s
 
 
 ## Screenshot of Project
-![screenshot of hw 2](./assets/images/Screenshot of Homework-2.png)
+[screenshot of hw 2](./assets/images/Screenshot of Homework-2.png)
 
 
 

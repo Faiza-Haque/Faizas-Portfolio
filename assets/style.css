@@ -1,55 +1,54 @@
-* {
-  box-sizing: border-box;
-}
+{
+    box-sizing: border-box;
+  }
+
+  .profile-picture {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 200px;
+    z-index: 1;
+    border: 2px solid black;
+  }
+
+  #work {
+    padding-top: 0px;
+  }
+
+  .grid-container {
+    width: 75%;
+  }
+
+  .purelogo {
+    height: 375px;
+    width: 100%;
+    border: 2px solid black;
+    padding: 2px;
+  }
+
+  .small-work {
+    width: 100%;
+  }
+
+  @media (max-width:768px) {
+    .grid-item {
+      width: 100%
+    }
+  }
 
 
-
-.profile-picture {
-  height: 300px;
-  border: 2px solid;
-}
-
-.purelogo {
-  height: 400px;
-  width: 100%;
-  border: 2px solid black;
-  padding: 4px;
-}
+  .grid-item {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 0px;
+    border: 2px solid black;
+  }
 
 
-.toprow {
-  height: 100%px;
-  border: 2px solid;
-  width: 200px
-}
+  #contact {
+    clear: both;
+    padding-top: 50px;
+  }
 
-.grid-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.grid-item {
-  width: 33%;
-  font-size: 30px;
-  text-align: center;
-  border: 3px solid black;
-  margin-top: 12px;
-}
-
-.grid-big-item {
-  width: 40%;
-}
-
-
-.small-work {
-  width: 100%;
-}
-
-
-
-/** pure logo should be bigger than all the small-work pictures/
-
-/**grid-big-item was just was naming purpose it corrolates with small-work and having them right next to each other can lookcontradicticting but dont focus on that/
-
-/**all of the small-work pictures should be the same/
