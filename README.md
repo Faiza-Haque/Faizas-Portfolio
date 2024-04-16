@@ -7,11 +7,11 @@ A portfolio of work can showcase your skills and talents to employers looking to
 With these points in mind, in this Challenge you'll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables.
 
 ## Deployed Link
-[deployed link] https://github.com/Faiza-Haque/Homework-2.git
+[deployed link](https://github.com/Faiza-Haque/Homework-2.git)
 
 
 ## Screenshot of Project
-[screenshot of hw 2](./assets/images/Screenshot of Homework-2.png)
+![screenshot of hw 2](./assets/images/screenshotofhomework-2.png)
 
 
 
