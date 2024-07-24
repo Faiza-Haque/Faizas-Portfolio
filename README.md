@@ -1,6 +1,5 @@
-# Homework-2
+# Faizas-Portfolio
 
-Challenge 02 - due 04/11/24 Completed by Faiza Haque for UCB Extension Coding Bootcamp
 
 A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can't be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies.
 
@@ -11,7 +10,7 @@ With these points in mind, in this Challenge you'll set yourself up for future s
 
 
 ## Screenshot of Project
-![screenshot of hw 2](./assets/images/screenshotofhomework-2.png)
+![screenshot of faizas-portfolio](./assets/Images/Faizas-Portfolio.png)
 
 
 

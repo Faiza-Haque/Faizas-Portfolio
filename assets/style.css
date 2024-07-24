@@ -1,54 +1,63 @@
-*{
+* {
   box-sizing: border-box;
-  }
+}
 
-  .profile-picture {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 200px;
-    z-index: 1;
-    border: 2px solid black;
-  }
+/* /by the default setting all the children will display in a row (h1 and nav) */
+header {
+  display: flex;
+  /* flex-direction:column ; */
+  justify-content: space-between;
+  /* width: 800px; */
+  align-items: center;
+}
 
-  #work {
-    padding-top: 0px;
-  }
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
 
-  .grid-container {
-    width: 75%;
-  }
+}
 
-  .purelogo {
-    height: 375px;
-    width: 100%;
-    border: 2px solid black;
-    padding: 2px;
-  }
+li {
+  list-style: none;
+  margin-right: 20px;
+}
 
-  .small-work {
-    width: 100%;
-  }
+li:last-child {
+  margin: 0;
+}
 
-  @media (max-width:768px) {
-    .grid-item {
-      width: 100%
-    }
-  }
+.profile-picture {
+  width: 200px;
+  height: auto;
+}
 
+.work {
+  display: flex;
+  flex-direction: column;
 
-  .grid-item {
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
-    padding: 5px;
-    margin-top: 0px;
-    border: 2px solid black;
-  }
+}
 
+.previous-projects {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  #contact {
-    clear: both;
-    padding-top: 50px;
-  }
+.current-project .image-container {
+  width: 100%;
+  height: 400px;
+}
 
+.previous-projects .image-container {
+  width: 50%;
+  height: 300px;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+}
+
+.current-project img {
+  height: 400px;
+}
